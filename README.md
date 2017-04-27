@@ -17,7 +17,7 @@ A Stand-alone version for ImageRecognition project [here][1]
 + Run 'Main.py'!
 
 ## Notice That:
-+ If 'Test' folder remains empty when the program is running, 200 pictures will be **MOVED** from '_Data' folder to 'Test' folder if 'gen_test' FLAG is True
++ If 'Test' folder remains empty when the program is running, 196 pictures will be **MOVED** from '_Data' folder to 'Test' folder if 'gen_test' FLAG is True
     + An '_answer.npy' ndarray will also be generated automatically!
 + After processing all images in '_Data' folder, a '_Cache' folder which contains 'features.npy' and 'labels.npy' (shuffled) will be generated
     + If you want to train on new dataset, '_Cache' folder should be deleted
@@ -65,3 +65,11 @@ parser.add_argument(
     default=True,
     help="Whether use cv2 to overview"
 )
+
+## Visualization
+
+![image](http://i2.muimg.com/567571/e0f83b20b6bc03dc.png)
+
+![image](http://i4.buimg.com/567571/a80134e7f81a5e70.png)
+
+*(Not so elegant, but (maybe) better than nothing...)*
